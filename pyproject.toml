@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "action-pr-review"
+version = "0.1.0"
+description = "Github action for AI-agent"
+authors = ["Nga Hoang V. <ngahv2222@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygithub = "^2.5.0"
+
+[tool.poetry.group.dev.dependencies]
+requests = "^2.23.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -20,4 +20,4 @@ RUN poetry lock
 RUN poetry install --no-root --no-interaction
 
 COPY . .
-CMD [ "python", "main.py" ]
+CMD ["poetry", "run", "python", "main.py" ]
